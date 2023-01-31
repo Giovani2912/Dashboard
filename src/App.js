@@ -11,7 +11,7 @@ import {Route, Routes, BrowserRouter} from 'react-router-dom';
 import "./style/dark.scss";
 function App() {
 
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
 
   return (
     <div className={dark ? "app dark" : "app"}>
